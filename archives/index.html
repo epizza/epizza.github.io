@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>archive_a | EPPE</title>
+  <title>Archives | EPPE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="EPPE">
@@ -13,70 +13,106 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="EPPE">
   
+    <link rel="alternative" href="/atom.xml" title="EPPE" type="application/atom+xml">
   
   
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/favicon.png">
   
-  <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
-  <link rel="stylesheet" href="/lib/fancybox/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <script src="/lib/jquery/dist/jquery.min.js"></script>
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   
-  
-  
-  
+
 </head>
 <body>
-  <div id="wrapper">
-    <header id="header" class="clearfix">
-	<a id="logo" href="/" title="EPPE">EPPE</a>
-	
-	<nav id="nav-menu" class="clearfix">
-		<form id="search" method="post" action="./" role="search">
-			<input id="search-input" type="text" name="s" class="inputbox" value="Search" onfocus="if (value =='Search'){value =''}" onblur="if (value ==''){value='Search'}">
-		</form>
-		<ul>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main">
+  
+  
+  
+    
+    
       
-				
-        <li><a class="main-nav-link" href="/">Home</a></li>
       
-				
-        <li><a class="main-nav-link" href="/archives">Archives</a></li>
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/hello-world/" class="archive-article-date">
+  <time datetime="2018-04-13T00:43:23.855Z" itemprop="datePublished">Apr 13</time>
+</a>
       
-		</ul>
-	</nav>
-</header>
-    <section id="main" class="clearfix">  
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/hello-world/">Hello World</a>
+    </h1>
+  
 
+    </header>
+  </div>
+</article>
   
-    <article class="post-detail">
-      <div id="archives">
-        <h3 class="al_year">2018</h3>
-        
-          <ul class="al_mon_list">
-            <li clsss="li_mon"><span class="al_mon">3</span>
-                <ul class="al_post_list">
-                  
-                    <li><a href="/hello-world/">Hello World</a></li>
-                  
-                </ul>
-            </li>
-          </ul>
-        
+  
+    </div></section>
+  
+</section>
+        <aside id="sidebar">
+  <nav class="menus">
+  	<ul>
+  		<li><a href="/"><i class="icon icon-home"></i></a></li>
+  		
+			<li><a href="/archives"><i class="icon icon-fenlei"></i></a></li>
+  		
+  		
+			<li><a href="/tags"><i class="icon icon-tag"></i></a></li>
+  		
+  		
+  			<li><a href="https://github.com/hejianxian" target="_blank"><i class="icon icon-github"></i></a></li>
+  		
+  	</ul>
+  </nav>
+  <a id="go-top" href="#"><i class="icon icon-up"></i></a>
+</aside>
+
       </div>
-    </article>
+      <footer id="footer">
   
-  </section>
-    <footer id="footer" role="contentinfo">
-    <div>&copy; 2018 <a href="/">EPPE</a>.
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
+	<div id="footer-info" class="inner">
+	  &copy; 2018 EPPE 
+	  - Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	  - Theme <a href="https://github.com/hejianxian/hexo-theme-jane/" target="_blank">Jane</a>
 	</div>
-</footer><!-- end #footer -->
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tag</a>
+  
+    <a href="https://github.com/hejianxian" class="mobile-nav-link">Github</a>
+  
+</nav>
+    
+
+<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
 
   </div>
-  <script src="/lib/fancybox/dist/jquery.fancybox.min.js"></script>
-
-  <script src="/js/helper.js"></script>
-  <script src="/js/_third-party/gitment.js"></script>
 </body>
 </html>
